@@ -5,8 +5,8 @@
  *      Author: Asus
  */
 
-#ifndef ALABAMA_H_
-#define ALABAMA_H_
+#ifndef ALABAMA_GUARD_H
+#define ALABAMA_GUARD_H
 
 class Alabama {
 public:
@@ -14,4 +14,4 @@ public:
 	virtual ~Alabama();
 };
 
-#endif /* ALABAMA_H_ */
+#endif /* ALABAMA_GUARD_H */
