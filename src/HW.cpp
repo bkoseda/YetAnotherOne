@@ -33,7 +33,6 @@ PlaceKeeper::PlaceKeeper(int n, const char* t)
 int main()
 {
 	PlaceKeeper* pk = new(STATIC_BUFFER)PlaceKeeper(12,"Dwanascie");
-	//PlaceKeeper* pk = new PlaceKeeper(12,"Dwanascie");
 	cout << "|" << static_cast<char*>(STATIC_BUFFER+sizeof(int)) << "|" << endl; // prints !!!Hello World!!!
 	return 0;
 }
